@@ -2,6 +2,9 @@
 
 Most import formatting rules should be taken care of by [rustfmt](rustfmt.md).
 
+For functions, their module should be imported, while importing structs and
+enums directly.
+
 If the `group_imports` `rustfmt` option is not used to automatically sort
 imports, they should be in Std -> External -> Crate order. External crates that
 you maintain can be put in separate blocks between External/Crate.
