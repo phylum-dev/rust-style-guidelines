@@ -10,11 +10,9 @@ Use the following rules when writing comments:
      try including headers for important sections like Examples/Panics/etc.
  - Unsafe blocks should always be documented, explaining why they are safe and
      under which circumstances they might no longer be
- - TODO comments should be temporary for development branches, bugs/features in
-     master should be documented in the issue tracker
- - XXX comments can be used to draw special attention to critical information
- - NOTE comments should be used sparingly, but can be useful to document loosely
-     related information
+ - `TODO` comments should be temporary for development branches, bugs/features
+     in master should be documented in the issue tracker
+ - `XXX` comments can be used to draw special attention to critical information
 
 ## Example
 
