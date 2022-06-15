@@ -5,7 +5,9 @@ Use `Default::default` for initializing struct fields without a specific value.
 Use `..struct` notation to shorten struct initialization, especially when
 initializing most fields of a struct to its default implementation.
 
-## Example (where applicable)
+## Example
+
+Don't do:
 
 ```rust
 struct Test {
@@ -35,7 +37,7 @@ impl Test {
 }
 ```
 
-Use instead:
+Do instead:
 
 ```rust
 struct Test {

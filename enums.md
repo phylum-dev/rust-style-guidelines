@@ -3,7 +3,9 @@
 Extract enum variants fields into a separate struct, rather than using
 struct-like enum variants.
 
-## Example (where applicable)
+## Example
+
+Don't do:
 
 ```rust
 enum Test {
@@ -13,7 +15,7 @@ enum Test {
 }
 ```
 
-Use instead:
+Do instead:
 
 ```rust
 enum Test {

@@ -5,6 +5,8 @@ added when possible.
 
 ## Example
 
+Don't do:
+
 ```rust
 macro_rules! print_user_success {
     ($($tts:tt)*) => {
@@ -14,7 +16,7 @@ macro_rules! print_user_success {
 }
 ```
 
-Use instead:
+Do instead:
 
 ```rust
 macro_rules! print_user_success {

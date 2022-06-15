@@ -7,11 +7,13 @@ Inside of libraries, panics must be avoided unless recovery is impossible.
 
 ## Example
 
+Don't do:
+
 ```rust
 let text = std::fs::read_to_string("test").unwrap();
 ```
 
-Use instead:
+Do instead:
 
 ```rust
 let text = std::fs::read_to_string("test").expect("failed to read 'test'");

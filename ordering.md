@@ -18,6 +18,8 @@ Use the following rules when writing comments:
 
 ## Example
 
+Don't do:
+
 ```rust
 impl Default for Example {
     fn default() -> Self {
@@ -58,7 +60,7 @@ impl Print for Example {
 }
 ```
 
-Use instead:
+Do instead:
 
 ```rust
 trait Print {

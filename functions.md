@@ -8,6 +8,8 @@ parameters.
 
 ## Example
 
+Don't do:
+
 ```rust
 let result = vec
     .iter()
@@ -16,7 +18,7 @@ let result = vec
     .map(|number| number * 2);
 ```
 
-Use instead:
+Do instead:
 
 ```rust
 let even = vec.iter().map(u8::from).filter(|number| number % 2 == 0);

@@ -2,13 +2,15 @@
 
 Avoid overly-specific visibility modifiers like `pub(super)`.
 
-## Example (where applicable)
+## Example
+
+Don't do:
 
 ```rust
 pub(super) struct Test;
 ```
 
-Use instead:
+Do instead:
 
 ```rust
 pub(crate) struct Test;

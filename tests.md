@@ -8,6 +8,8 @@ submodule.
 
 ## Example
 
+Don't do:
+
 ```rust
 fn to_test(param: u8) {
     param
@@ -19,7 +21,7 @@ fn testing() {
 }
 ```
 
-Use instead:
+Do instead:
 
 ```rust
 fn to_test(param: u8) {

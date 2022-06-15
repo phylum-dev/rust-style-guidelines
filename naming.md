@@ -11,13 +11,15 @@ Function names returning a field should omit the `get_` prefix.
 
 ## Example
 
+Don't do:
+
 ```rust
 trait Explodable {
     fn get_f(&self) -> u8;
 }
 ```
 
-Use instead:
+Do instead:
 
 ```rust
 trait Explode {

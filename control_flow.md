@@ -5,7 +5,9 @@ Avoid excessive nesting by using an early `return` when matching options.
 When branching at the end of a function and returning a value, consider using an
 `else` block instead of an early return.
 
-## Example (where applicable)
+## Example
+
+Don't do:
 
 ```rust
 if let Some(test) = option {
@@ -16,7 +18,7 @@ if let Some(test) = option {
 }
 ```
 
-Use instead:
+Do instead:
 
 ```rust
 let test = match option {

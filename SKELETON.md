@@ -4,11 +4,13 @@
 
 ## Example (where applicable)
 
+Don't do:
+
 ```rust
 can_fail.unwrap();
 ```
 
-Use instead:
+Do instead:
 
 ```rust
 can_fail.expect("failure reason");

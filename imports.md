@@ -17,6 +17,8 @@ Glob imports should only be used for `super::*` at the top of test modules and
 
 ## Example
 
+Don't do:
+
 ```rust
 #[cfg(unix)]
 use std::collections::HashMap;
@@ -36,7 +38,7 @@ mod util;
 use crate::{MyStruct, util::*};
 ```
 
-Use instead:
+Do instead:
 
 
 ```rust

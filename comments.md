@@ -18,6 +18,8 @@ Use the following rules when writing comments:
 
 ## Example
 
+Don't do:
+
 ```rust
 /// Test our functionality. In this code we make sure that everything we are
 /// doing works as intended. You should be careful about panics because that
@@ -43,7 +45,7 @@ pub fn test(param: u8) -> bool {
 }
 ```
 
-Use instead:
+Do instead:
 
 ```rust
 /// Test our functionality.
