@@ -10,7 +10,7 @@ parameters.
 
 Don't do:
 
-```rust
+```rust,ignore
 let result = vec
     .iter()
     .map(|number| u8::from(number))
@@ -20,7 +20,7 @@ let result = vec
 
 Do instead:
 
-```rust
+```rust,ignore
 let even = vec.iter().map(u8::from).filter(|number| number % 2 == 0);
 let result = even.map(|number| number * 2);
 ```

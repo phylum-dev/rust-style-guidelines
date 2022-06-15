@@ -11,7 +11,7 @@ submodule.
 Don't do:
 
 ```rust
-fn to_test(param: u8) {
+fn to_test(param: u8) -> u8 {
     param
 }
 
@@ -24,7 +24,7 @@ fn testing() {
 Do instead:
 
 ```rust
-fn to_test(param: u8) {
+fn to_test(param: u8) -> u8 {
     param
 }
 

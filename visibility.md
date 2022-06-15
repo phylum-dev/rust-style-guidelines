@@ -6,7 +6,7 @@ Avoid overly-specific visibility modifiers like `pub(super)`.
 
 Don't do:
 
-```rust
+```rust,ignore
 pub(super) struct Test;
 ```
 

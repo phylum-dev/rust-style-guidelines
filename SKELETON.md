@@ -6,13 +6,13 @@
 
 Don't do:
 
-```rust
+```rust,ignore
 can_fail.unwrap();
 ```
 
 Do instead:
 
-```rust
+```rust,ignore
 can_fail.expect("failure reason");
 ```
 

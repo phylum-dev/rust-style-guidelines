@@ -18,7 +18,7 @@ Use the following rules when writing comments:
 
 Don't do:
 
-```rust
+```rust,ignore
 /// Test our functionality. In this code we make sure that everything we are
 /// doing works as intended. You should be careful about panics because that
 /// might happen if you pass 3 as parameter.
@@ -45,7 +45,7 @@ pub fn test(param: u8) -> bool {
 
 Do instead:
 
-```rust
+```rust,ignore
 /// Test our functionality.
 ///
 /// In this code we make sure that everything we are doing works as intended.

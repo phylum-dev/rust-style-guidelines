@@ -19,7 +19,7 @@ Glob imports should only be used for `super::*` at the top of test modules and
 
 Don't do:
 
-```rust
+```rust,ignore
 #[cfg(unix)]
 use std::collections::HashMap;
 use std::io::Read;
@@ -41,7 +41,7 @@ use crate::{MyStruct, util::*};
 Do instead:
 
 
-```rust
+```rust,ignore
 #[rustfmt::skip]
 #[cfg(unix)]
 use {

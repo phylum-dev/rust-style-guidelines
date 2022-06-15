@@ -9,7 +9,7 @@ When branching at the end of a function and returning a value, consider using an
 
 Don't do:
 
-```rust
+```rust,ignore
 if let Some(test) = option {
     if check {
         return 15;
@@ -20,7 +20,7 @@ if let Some(test) = option {
 
 Do instead:
 
-```rust
+```rust,ignore
 let test = match option {
     Some(test) => test,
     None => return,
