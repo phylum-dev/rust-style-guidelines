@@ -118,7 +118,7 @@ newline_style = "Unix"
 
 ### Imports
 
-Setting import granularity to the module level, makes it possible to change
+Setting import granularity to the module level makes it possible to change
 imports while generating only minimal diffs. At the same time vertical space is
 kept in check for files with many different imports.
 
