@@ -112,6 +112,9 @@ Unix newlines are the standard in most software projects, this way `rustfmt`
 will automatically transform all newlines to the correct format even for new
 files.
 
+It's also a good idea to make sure your git configuration does not transform
+newlines to crlf automatically.
+
 ```
 newline_style = "Unix"
 ```
