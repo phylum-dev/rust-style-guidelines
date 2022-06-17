@@ -15,7 +15,7 @@ to all Rust code.
 Notable examples:
  - https://rust-lang.github.io/api-guidelines
  - https://deterministic.space/elegant-apis-in-rust.html
- - TODO(RFC): Are there any other notable resources?
+ - https://rust-unofficial.github.io/patterns
 
 ## Table of Contents
 
