@@ -1,7 +1,6 @@
 # Ordering
 
-Use the following rules when writing comments:
-
+Use the following rules to determine item order:
  - Constructors like `new`/`from_` must always be the first impl methods
  - Pub fields, methods and constants should be above their non-pub counterparts
  - Structs depending on each other can be grouped together, but must not
