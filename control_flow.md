@@ -44,4 +44,4 @@ Putting an early return at the end of a function produces inconsistent code
 which makes it more difficult to follow its control flow. By introducing an
 `else` branch, the early return is removed and the branches are unified. However
 this does introduce another layer of nesting, so the `else` branch should be
-simple
+simple.

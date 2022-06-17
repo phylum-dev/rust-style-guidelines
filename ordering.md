@@ -9,9 +9,9 @@ Use the following rules to determine item order:
  - Struct initialization fields should have the following order:
     - Shorthand fields with identical variable/field name 
     - Fields with custom assignment inline
-    - Fields with Default::default() assignment
+    - Fields with `Default::default()` assignment
  - Impl blocks should have the following order:
-    - Constructor trait impls like Default/From
+    - Constructor trait impls like `Default`/`From`
     - Struct impl
     - Other trait impls
 
