@@ -1,7 +1,8 @@
 # Error Handling
 
-When handling errors, `unwrap` should only be used when failure is not possible,
-otherwise `expect` should be preferred.
+When handling errors using `unwrap` and `expect`, `unwrap` should only be used
+when it is obvious that failure is not possible, otherwise `expect` should be
+preferred.
 
 Inside of libraries, panics must be avoided unless recovery is impossible.
 
