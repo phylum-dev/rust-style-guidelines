@@ -8,8 +8,8 @@ Use the following rules when writing comments:
      empty line below them if they apply to multiple following blocks
  - Rust's STD should be used as an example for writing good rustdoc comments,
      try including headers for important sections like Examples/Panics/etc.
- - Unsafe blocks should always be documented, explaining why they are safe and
-     under which circumstances they might no longer be
+ - Unsafe blocks should be documented if their safety is not obvious,
+     some projects can benefit from `clippy::undocumented_unsafe_blocks`
  - `TODO` comments should be temporary for development branches, bugs/features
      in master should be documented in the issue tracker
  - `XXX` comments can be used to draw special attention to critical information
