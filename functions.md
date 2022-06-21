@@ -1,7 +1,7 @@
 # Functions
 
-When using iterators, or other long method chains, intermediates should be
-extracted.
+Consider extracting intermediates when dealing with long method chains and
+iterators.
 
 When possible, method paths should be used instead of closures as method
 parameters.
