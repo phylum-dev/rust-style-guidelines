@@ -11,9 +11,13 @@ Don't do:
 
 ```rust,ignore
 if let Some(test) = option {
+    // ...
+
     if check {
         return 15;
     }
+    3
+} else {
     0
 }
 ```
@@ -23,13 +27,15 @@ Do instead:
 ```rust,ignore
 let test = match option {
     Some(test) => test,
-    None => return,
+    None => return 0,
 };
+
+// ...
 
 if check {
     15
 } else {
-    0
+    3
 }
 ```
 
