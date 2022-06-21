@@ -7,7 +7,7 @@ enums directly.
 
 If the `group_imports` `rustfmt` option is not used to automatically sort
 imports, they should be in Std -> External -> Crate order. External crates that
-you maintain can be put in separate blocks between External/Crate.
+we maintain can be put in separate blocks between External/Crate.
 
 Module definitions should come after the imports, this also applies to imports
 referencing that module.
